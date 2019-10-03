@@ -13,8 +13,11 @@ function klikkaus(event) {
 }
 function Init() {
   var ruudukko = document.getElementById("ruudukko");
-  ruudukko.addEventListener("click", klikkaus);
+  if(ruudukko){
+    ruudukko.addEventListener("click", klikkaus,false);
+  }
 }
+
 
 /* Uusi peli */
 function startNewGame() {
