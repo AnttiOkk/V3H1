@@ -4,17 +4,16 @@ var N_SIZE = 5,
   score = {},
   moves;
 
-function Init() {
-  var ruudukko = document.getElementById("ruudukko");
-  ruudukko.addEventListener("click", klikkaus);
-}
-
 function klikkaus(event) {
   var cell = event.target;
   if (!cell.classList.contains("col")) {
     return;
   }
   set(cell);
+}
+function Init() {
+  var ruudukko = document.getElementById("ruudukko");
+  ruudukko.addEventListener("click", klikkaus);
 }
 
 /* Uusi peli */

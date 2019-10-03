@@ -1,19 +1,4 @@
-table {
-  border-collapse: collapse;
-}
-.grid_container {
-}
 
-td {
-  background-color: white;
-  border: 1px solid black;
-  font-size: 30px;
-  font-family: helvetica;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  vertical-align: middle;
-}
 .row {
   margin-bottom: 0px;
 }
